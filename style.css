@@ -1,0 +1,29 @@
+html {
+  background-color: gray;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.block2 {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+
+.block2 p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
